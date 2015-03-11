@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		781D3D001AB08B64001F4E02 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 781D3CFF1AB08B64001F4E02 /* main.c */; };
 		781D3D021AB08B64001F4E02 /* TGCHomeWork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */; };
+		96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */; };
+		96BD94E91AB0ED4400C06A1D /* TGBitOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D71AB0ED4400C06A1D /* TGBitOutput.c */; };
+		96BD94EA1AB0ED4400C06A1D /* TGHumanStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */; };
+		96BD94EB1AB0ED4400C06A1D /* TGObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DC1AB0ED4400C06A1D /* TGObject.c */; };
+		96BD94EC1AB0ED4400C06A1D /* TGMamaPapa.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DF1AB0ED4400C06A1D /* TGMamaPapa.c */; };
+		96BD94ED1AB0ED4400C06A1D /* TGMamaPapa_Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E11AB0ED4400C06A1D /* TGMamaPapa_Test.c */; };
+		96BD94EE1AB0ED4400C06A1D /* TGStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E41AB0ED4400C06A1D /* TGStructure.c */; };
+		96BD94EF1AB0ED4400C06A1D /* TGStructureTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +36,23 @@
 		781D3CFC1AB08B64001F4E02 /* TGCHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGCHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		781D3CFF1AB08B64001F4E02 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TGCHomeWork.1; sourceTree = "<group>"; };
+		96BD94D31AB0ED4400C06A1D /* TGMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMacro.h; sourceTree = "<group>"; };
+		96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMacroTest.c; sourceTree = "<group>"; };
+		96BD94D51AB0ED4400C06A1D /* TGMacroTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMacroTest.h; sourceTree = "<group>"; };
+		96BD94D71AB0ED4400C06A1D /* TGBitOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGBitOutput.c; sourceTree = "<group>"; };
+		96BD94D81AB0ED4400C06A1D /* TGBitOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBitOutput.h; sourceTree = "<group>"; };
+		96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGHumanStructure.c; sourceTree = "<group>"; };
+		96BD94DB1AB0ED4400C06A1D /* TGHumanStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHumanStructure.h; sourceTree = "<group>"; };
+		96BD94DC1AB0ED4400C06A1D /* TGObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGObject.c; sourceTree = "<group>"; };
+		96BD94DD1AB0ED4400C06A1D /* TGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGObject.h; sourceTree = "<group>"; };
+		96BD94DF1AB0ED4400C06A1D /* TGMamaPapa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMamaPapa.c; sourceTree = "<group>"; };
+		96BD94E01AB0ED4400C06A1D /* TGMamaPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMamaPapa.h; sourceTree = "<group>"; };
+		96BD94E11AB0ED4400C06A1D /* TGMamaPapa_Test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMamaPapa_Test.c; sourceTree = "<group>"; };
+		96BD94E21AB0ED4400C06A1D /* TGMamaPapa_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMamaPapa_Test.h; sourceTree = "<group>"; };
+		96BD94E41AB0ED4400C06A1D /* TGStructure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStructure.c; sourceTree = "<group>"; };
+		96BD94E51AB0ED4400C06A1D /* TGStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructure.h; sourceTree = "<group>"; };
+		96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStructureTests.c; sourceTree = "<group>"; };
+		96BD94E71AB0ED4400C06A1D /* TGStructureTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructureTests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +69,7 @@
 		781D3CF31AB08B64001F4E02 = {
 			isa = PBXGroup;
 			children = (
+				96BD94D11AB0ED4400C06A1D /* Sources */,
 				781D3CFE1AB08B64001F4E02 /* TGCHomeWork */,
 				781D3CFD1AB08B64001F4E02 /* Products */,
 			);
@@ -64,6 +90,70 @@
 				781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */,
 			);
 			path = TGCHomeWork;
+			sourceTree = "<group>";
+		};
+		96BD94D11AB0ED4400C06A1D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94D21AB0ED4400C06A1D /* Macro */,
+				96BD94D61AB0ED4400C06A1D /* TGBitOutput */,
+				96BD94D91AB0ED4400C06A1D /* TGHuman */,
+				96BD94DE1AB0ED4400C06A1D /* TGMamaPapa */,
+				96BD94E31AB0ED4400C06A1D /* TGStructure */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		96BD94D21AB0ED4400C06A1D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94D31AB0ED4400C06A1D /* TGMacro.h */,
+				96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */,
+				96BD94D51AB0ED4400C06A1D /* TGMacroTest.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		96BD94D61AB0ED4400C06A1D /* TGBitOutput */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94D71AB0ED4400C06A1D /* TGBitOutput.c */,
+				96BD94D81AB0ED4400C06A1D /* TGBitOutput.h */,
+			);
+			path = TGBitOutput;
+			sourceTree = "<group>";
+		};
+		96BD94D91AB0ED4400C06A1D /* TGHuman */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */,
+				96BD94DB1AB0ED4400C06A1D /* TGHumanStructure.h */,
+				96BD94DC1AB0ED4400C06A1D /* TGObject.c */,
+				96BD94DD1AB0ED4400C06A1D /* TGObject.h */,
+			);
+			path = TGHuman;
+			sourceTree = "<group>";
+		};
+		96BD94DE1AB0ED4400C06A1D /* TGMamaPapa */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94DF1AB0ED4400C06A1D /* TGMamaPapa.c */,
+				96BD94E01AB0ED4400C06A1D /* TGMamaPapa.h */,
+				96BD94E11AB0ED4400C06A1D /* TGMamaPapa_Test.c */,
+				96BD94E21AB0ED4400C06A1D /* TGMamaPapa_Test.h */,
+			);
+			path = TGMamaPapa;
+			sourceTree = "<group>";
+		};
+		96BD94E31AB0ED4400C06A1D /* TGStructure */ = {
+			isa = PBXGroup;
+			children = (
+				96BD94E41AB0ED4400C06A1D /* TGStructure.c */,
+				96BD94E51AB0ED4400C06A1D /* TGStructure.h */,
+				96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */,
+				96BD94E71AB0ED4400C06A1D /* TGStructureTests.h */,
+			);
+			path = TGStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BD94EB1AB0ED4400C06A1D /* TGObject.c in Sources */,
+				96BD94ED1AB0ED4400C06A1D /* TGMamaPapa_Test.c in Sources */,
+				96BD94EE1AB0ED4400C06A1D /* TGStructure.c in Sources */,
+				96BD94EF1AB0ED4400C06A1D /* TGStructureTests.c in Sources */,
+				96BD94EA1AB0ED4400C06A1D /* TGHumanStructure.c in Sources */,
+				96BD94EC1AB0ED4400C06A1D /* TGMamaPapa.c in Sources */,
 				781D3D001AB08B64001F4E02 /* main.c in Sources */,
+				96BD94E91AB0ED4400C06A1D /* TGBitOutput.c in Sources */,
+				96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +325,7 @@
 				781D3D071AB08B64001F4E02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

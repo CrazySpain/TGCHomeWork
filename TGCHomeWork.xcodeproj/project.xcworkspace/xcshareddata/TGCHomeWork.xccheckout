@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1469FDA6-EE4B-43BD-A85D-258B776BB359</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TGCHomeWork</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00DE4313BF8FD3F4DA34E6CEDC1E6CC83D48814F</key>
+		<string>https://github.com/CrazySpain/TGCHomeWork.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TGCHomeWork.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00DE4313BF8FD3F4DA34E6CEDC1E6CC83D48814F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CrazySpain/TGCHomeWork.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>00DE4313BF8FD3F4DA34E6CEDC1E6CC83D48814F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00DE4313BF8FD3F4DA34E6CEDC1E6CC83D48814F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TGCHomeWork</string>
+		</dict>
+	</array>
+</dict>
+</plist>
