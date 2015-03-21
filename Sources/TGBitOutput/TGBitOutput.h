@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
-void TGBitOutput(void *value);
+void TGBitOutput(void *value, size_t size);
+void* TGReversedVaue(void *value, size_t size);
 
 #endif /* defined(__TGBitOutput__TGBitOutput__) */
