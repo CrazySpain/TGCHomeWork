@@ -12,7 +12,14 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+#define TGReversedValueBitOutput(value) \
+    TGBitOutput(&value, sizeof(value), true)
+
+#define TGValueBitOutput(value) \
+    TGBitOutput(&value, sizeof(value), false)
+
+extern
 void TGBitOutput(void *value, size_t size, bool isReverse);
-void* TGReversedVaue(void *value, size_t size);
+void* TGCharValueRef(void *value, size_t size, bool isReverse);
 
 #endif /* defined(__TGBitOutput__TGBitOutput__) */

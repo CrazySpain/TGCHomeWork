@@ -9,6 +9,7 @@
 #ifndef __TGCHomeWork__TGBitOutputTests__
 #define __TGCHomeWork__TGBitOutputTests__
 
+extern
 void TGBitOutputPerformTest();
 
 #endif /* defined(__TGCHomeWork__TGBitOutputTests__) */

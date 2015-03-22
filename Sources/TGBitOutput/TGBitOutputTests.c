@@ -15,18 +15,28 @@ void TGBitOutputPerformTest() {
     char one = 1;
     int value = 1111;
     
-    size_t zeroSize = sizeof(zero);
-    size_t oneSize = sizeof(one);
-    size_t valueSize = sizeof(valueSize);
+//    size_t zeroSize = sizeof(zero);
+//    size_t oneSize = sizeof(one);
+//    size_t valueSize = sizeof(valueSize);
+//    
+//    bool reverse = true;
+//    
+//    TGBitOutput(&zero, zeroSize, !reverse);
+//    TGBitOutput(&zero, zeroSize, reverse);
+//    
+//    TGBitOutput(&one, oneSize, !reverse);
+//    TGBitOutput(&one, oneSize, reverse);
+//    
+//    TGBitOutput(&value, valueSize, !reverse);
+//    TGBitOutput(&value, valueSize, reverse);
+
     
-    bool reverse = true;
+    TGValueBitOutput(zero);
+    TGReversedValueBitOutput(zero);
     
-    TGBitOutput(&zero, zeroSize, !reverse);
-    TGBitOutput(&zero, zeroSize, reverse);
+    TGValueBitOutput(one);
+    TGReversedValueBitOutput(one);
     
-    TGBitOutput(&one, oneSize, !reverse);
-    TGBitOutput(&one, oneSize, reverse);
-    
-    TGBitOutput(&value, valueSize, !reverse);
-    TGBitOutput(&value, valueSize, reverse);
+    TGValueBitOutput(value);
+    TGReversedValueBitOutput(value);
 }
