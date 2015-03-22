@@ -8,11 +8,11 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
-{
+#include "TGBitOutputTests.h"
 
-    // insert code here...
-    printf("Hello, World!\n");
+int main(int argc, const char * argv[]) {
+    TGBitOutputPerformTest();
+    
     return 0;
 }
 
