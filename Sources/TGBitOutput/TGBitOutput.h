@@ -20,6 +20,8 @@
 
 extern
 void TGBitOutput(void *value, size_t size, bool isReverse);
-void* TGCharValueRef(void *value, size_t size, bool isReverse);
+
+extern
+void *TGCharValueRef(void *value, size_t size, bool isReverse);
 
 #endif /* defined(__TGBitOutput__TGBitOutput__) */

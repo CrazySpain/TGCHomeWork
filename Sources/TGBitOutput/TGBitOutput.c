@@ -27,7 +27,7 @@ void TGBitOutput(void *value, size_t size, bool isReverse) {
     printf("\n");
 }
 
-void* TGCharValueRef(void *value, size_t size, bool isReverse) {
+void *TGCharValueRef(void *value, size_t size, bool isReverse) {
     unsigned char *charValueRef = (unsigned char *)value;
     
     if (isReverse) {
