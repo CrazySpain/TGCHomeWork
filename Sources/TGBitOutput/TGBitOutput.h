@@ -9,6 +9,7 @@
 #ifndef __TGBitOutput__TGBitOutput__
 #define __TGBitOutput__TGBitOutput__
 
+#include <stdio.h>
 #include <stdbool.h>
 
 void TGBitOutput(void *value, size_t size, bool isReverse);
