@@ -23,7 +23,7 @@ struct TGString {
 };
 
 extern
-void TGStringDealloc(TGString *string);
+void __TGStringDealloc(TGString *string);
 
 extern
 char *TGStringGetString(TGString *string);

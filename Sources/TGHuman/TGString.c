@@ -22,6 +22,7 @@ void TGStringSetString(TGString *string, char *charArray) {
     if (string->_string != charArray) {
         free(string->_string);
         string->_string = charArray;
+        string->_length = sizeof(string->_string);
     }
 }
 
@@ -41,7 +42,7 @@ void TGStringSetLength(TGString *string, uint64_t length) {
 #pragma mark -
 #pragma mark Public Implementation
 
-void TGStringDealloc(TGString *string) {
+void __TGStringDealloc(TGString *string) {
     if (NULL != string->_string) {
         free(string->_string);
     }
