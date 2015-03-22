@@ -7,11 +7,19 @@
 //
 
 #include <stdlib.h>
+#include <stdio.h>
 
 #include "TGBitOutput.h"
 
-void TGBitOutput(void *value, size_t size) {
-    unsigned char *charValueRef = (unsigned char *)value;
+void TGBitOutput(void *value, size_t size, bool isReverse) {
+    unsigned char *charValueRef = NULL;
+    
+    if (isReverse) {
+        charValueRef = TGReversedVaue(value, size);
+    } else {
+        charValueRef = (unsigned char *)value;
+    }
+    
     unsigned char charValue = 0;
     
     for (long int byteIter = size; byteIter > 0; byteIter--) {
