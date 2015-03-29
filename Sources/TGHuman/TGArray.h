@@ -9,9 +9,9 @@
 #ifndef __TGCHomeWork__TGArray__
 #define __TGCHomeWork__TGArray__
 
-#include "TGObject.h"
-
 #include <stdio.h>
+
+#include "TGObject.h"
 
 typedef struct TGArray TGArray;
 
@@ -29,7 +29,7 @@ extern
 void *TGArrayGetArray(TGArray *array);
 
 extern
-void TGArraySetArray(TGArray *array, void *dataArray);
+void TGArraySetArray(TGArray *array, void *dataArray, size_t length);
 
 extern
 size_t TGArrayGetLength(TGArray *array);
