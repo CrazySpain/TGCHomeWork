@@ -10,6 +10,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <assert.h>
 
 #pragma mark -
 #pragma mark Accessors
@@ -20,20 +21,36 @@ char *TGStringGetString(TGString *string) {
 
 void TGStringSetString(TGString *string, char *charArray) {
     if (string->_string != charArray) {
-        free(string->_string);
-        string->_string = charArray;
-        string->_length = sizeof(string->_string);
+        if (NULL != string->_string && NULL == charArray) {
+            TGStringSetLength(string, 0);
+        }
+        
+        if (NULL != charArray) {
+            size_t length = strlen(charArray) + 1;
+            TGStringSetLength(string, length);
+            memcpy(string->_string, charArray, length);
+        }
     }
 }
 
-uint64_t TGStringGetLength(TGString *string) {
+size_t TGStringGetLength(TGString *string) {
     return string->_length;
 }
 
-void TGStringSetLength(TGString *string, uint64_t length) {
+void TGStringSetLength(TGString *string, size_t length) {
+    if (0 == length) {
+        free(string->_string);
+        string->_string = NULL;
+        string->_length = 0;
+        
+        return;
+    }
+    
     if (string->_length != length) {
         string->_string = realloc(string->_string, length * sizeof(*string));
-        memset(string->_string + string->_length, 0, length - string->_length);
+        
+        assert(string->_string != NULL);
+        memset(string->_string, 0, length);
         
         string->_length = length;
     }
@@ -44,7 +61,7 @@ void TGStringSetLength(TGString *string, uint64_t length) {
 
 void __TGStringDealloc(TGString *string) {
     if (NULL != string->_string) {
-        free(string->_string);
+        TGStringSetString(string, NULL);
     }
     
     __TGObjectDealloc(string);

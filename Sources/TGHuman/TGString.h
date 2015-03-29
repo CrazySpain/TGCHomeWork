@@ -19,7 +19,7 @@ struct TGString {
     TGObject _object;
     
     char *_string;
-    uint64_t _length;
+    size_t _length;
 };
 
 extern
@@ -32,9 +32,9 @@ extern
 void TGStringSetString(TGString *string, char *charArray);
 
 extern
-uint64_t TGStringGetLength(TGString *string);
+size_t TGStringGetLength(TGString *string);
 
 extern
-void TGStringSetLength(TGString *string, uint64_t length);
+void TGStringSetLength(TGString *string, size_t length);
 
 #endif /* defined(__TGCHomeWork__TGString__) */

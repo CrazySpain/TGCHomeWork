@@ -12,12 +12,12 @@
 #include <stdio.h>
 #include <stdbool.h> 
 
-typedef enum {Female, Male} TGGenderHuman;
+typedef enum {TGGenderFemale, TGGenderMale} TGHumanGender;
 typedef struct TGHuman TGHuman;
 
 struct TGHuman {
     char *_name;
-    TGGenderHuman _gender;
+    TGHumanGender _gender;
     int _age;
     int _childQuantity;
     TGHuman *_partner;
