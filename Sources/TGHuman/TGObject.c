@@ -21,11 +21,19 @@ void *__TGObjectCreate(size_t objectSize, TGDealloc dealloc) {
     return object;
 }
 
-void TGObjectRetain(void *object) {
-    ((TGObject *)object)->_referenceCount++;
+void *TGObjectRetain(void *object) {
+    if (NULL != object) {
+        ((TGObject *)object)->_referenceCount++;
+    }
+    
+    return object;
 }
 
 void TGObjectRelease(void *object) {
+    if (NULL == object) {
+        return;
+    }
+    
     TGObject *retainedObject = (TGObject *)object;
     retainedObject->_referenceCount--;
     

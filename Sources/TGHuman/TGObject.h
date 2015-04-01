@@ -26,7 +26,7 @@ extern
 void *__TGObjectCreate(size_t objectSize, TGDealloc dealloc);
 
 extern
-void TGObjectRetain(void *object);
+void *TGObjectRetain(void *object);
 
 extern
 void TGObjectRelease(void *object);
