@@ -20,12 +20,10 @@ char *TGStringGetString(TGString *string) {
 }
 
 void TGStringSetString(TGString *string, char *charArray) {
-    if (string->_string != charArray) {
+    if ((NULL != string) && (string->_string != charArray)) {
         if (NULL != string->_string && NULL == charArray) {
             TGStringSetLength(string, 0);
-        }
-        
-        if (NULL != charArray) {
+        } else if (NULL != charArray) {
             size_t length = strlen(charArray) + 1;
             TGStringSetLength(string, length);
             memcpy(string->_string, charArray, length);
@@ -42,11 +40,7 @@ void TGStringSetLength(TGString *string, size_t length) {
         free(string->_string);
         string->_string = NULL;
         string->_length = 0;
-        
-        return;
-    }
-    
-    if (string->_length != length) {
+    } else if (string->_length != length) {
         string->_string = realloc(string->_string, length * sizeof(*string));
         
         assert(string->_string != NULL);
