@@ -8,10 +8,10 @@
 
 #include <stdio.h>
 
-#include "TGBitOutputTests.h"
+#include "TGStringTests.h"
 
 int main(int argc, const char * argv[]) {
-    TGBitOutputPerformTest();
+    TGTestString();
     
     return 0;
 }
