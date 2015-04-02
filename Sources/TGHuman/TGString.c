@@ -16,6 +16,10 @@
 #pragma mark Accessors
 
 char *TGStringGetString(TGString *string) {
+    if (NULL == string) {
+        return NULL;
+    }
+    
     return string->_string;
 }
 
