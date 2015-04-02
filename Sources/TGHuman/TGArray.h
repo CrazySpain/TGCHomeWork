@@ -18,23 +18,32 @@ typedef struct TGArray TGArray;
 struct TGArray {
     TGObject *_object;
     
-    void *_array;
+    void **_array;
     size_t _length;
 };
+
+extern
+TGArray *TGArrayCreateWithObject(void *object);
 
 extern
 void __TGArrayDealloc(TGArray *array);
 
 extern
-void *TGArrayGetArray(TGArray *array);
+void *TGArrayGetObjectAtIndex(TGArray *array, uint32_t index);
 
 extern
-void TGArraySetArray(TGArray *array, void *dataArray, size_t length);
+void TGArraySetObject(TGArray *array, void *object);
 
 extern
 size_t TGArrayGetLength(TGArray *array);
 
 extern
 void TGArraySetLength(TGArray *array, size_t length);
+
+extern
+void TGArrayRemoveObject(TGArray *array, void *object);
+
+extern
+void TGArrayRemoveObjectAtIndex(TGArray *array, uint32_t index);
 
 #endif /* defined(__TGCHomeWork__TGArray__) */
