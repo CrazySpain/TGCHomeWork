@@ -8,10 +8,10 @@
 
 #include <stdio.h>
 
-#include "TGStringTests.h"
+#include "TGTests.h"
 
 int main(int argc, const char * argv[]) {
-    TGTestString();
+    TGPerformTests();
     
     return 0;
 }
