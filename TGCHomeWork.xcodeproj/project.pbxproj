@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		781D3D001AB08B64001F4E02 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 781D3CFF1AB08B64001F4E02 /* main.c */; };
 		781D3D021AB08B64001F4E02 /* TGCHomeWork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */; };
-		969A7DAE1ACC679E00A2505D /* TGPropertyAccessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 969A7DAC1ACC679E00A2505D /* TGPropertyAccessors.c */; };
 		96A4953B1ABF56B5006E0228 /* TGBitOutputTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A495391ABF56B5006E0228 /* TGBitOutputTests.c */; };
-		96A4953E1ABF6EDB006E0228 /* TGString.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A4953C1ABF6EDB006E0228 /* TGString.c */; };
 		96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */; };
 		96BD94E91AB0ED4400C06A1D /* TGBitOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D71AB0ED4400C06A1D /* TGBitOutput.c */; };
 		96BD94EA1AB0ED4400C06A1D /* TGHumanStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */; };
-		96BD94EB1AB0ED4400C06A1D /* TGObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DC1AB0ED4400C06A1D /* TGObject.c */; };
 		96BD94EC1AB0ED4400C06A1D /* TGMamaPapa.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94DF1AB0ED4400C06A1D /* TGMamaPapa.c */; };
 		96BD94ED1AB0ED4400C06A1D /* TGMamaPapa_Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E11AB0ED4400C06A1D /* TGMamaPapa_Test.c */; };
 		96BD94EE1AB0ED4400C06A1D /* TGStructure.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E41AB0ED4400C06A1D /* TGStructure.c */; };
 		96BD94EF1AB0ED4400C06A1D /* TGStructureTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */; };
-		96F07D0A1AC8309300A9D2D5 /* TGArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F07D081AC8309300A9D2D5 /* TGArray.c */; };
 		96F3F0CF1AD19CC5002C4418 /* TGTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0CD1AD19CC5002C4418 /* TGTests.c */; };
 		96F3F0D61AD19DE4002C4418 /* TGArrayTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0D11AD19DE4002C4418 /* TGArrayTests.c */; };
 		96F3F0D71AD19DE4002C4418 /* TGStringTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0D41AD19DE4002C4418 /* TGStringTests.c */; };
+		96F3F0E41AD1A57A002C4418 /* TGArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0DA1AD1A57A002C4418 /* TGArray.c */; };
+		96F3F0E51AD1A57A002C4418 /* TGObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0DC1AD1A57A002C4418 /* TGObject.c */; };
+		96F3F0E61AD1A57A002C4418 /* TGPropertyAccessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0DF1AD1A57A002C4418 /* TGPropertyAccessors.c */; };
+		96F3F0E71AD1A57A002C4418 /* TGString.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0E21AD1A57A002C4418 /* TGString.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,12 +43,8 @@
 		781D3CFC1AB08B64001F4E02 /* TGCHomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGCHomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		781D3CFF1AB08B64001F4E02 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TGCHomeWork.1; sourceTree = "<group>"; };
-		969A7DAC1ACC679E00A2505D /* TGPropertyAccessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGPropertyAccessors.c; sourceTree = "<group>"; };
-		969A7DAD1ACC679E00A2505D /* TGPropertyAccessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPropertyAccessors.h; sourceTree = "<group>"; };
 		96A495391ABF56B5006E0228 /* TGBitOutputTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGBitOutputTests.c; sourceTree = "<group>"; };
 		96A4953A1ABF56B5006E0228 /* TGBitOutputTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBitOutputTests.h; sourceTree = "<group>"; };
-		96A4953C1ABF6EDB006E0228 /* TGString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGString.c; sourceTree = "<group>"; };
-		96A4953D1ABF6EDB006E0228 /* TGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGString.h; sourceTree = "<group>"; };
 		96BD94D31AB0ED4400C06A1D /* TGMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMacro.h; sourceTree = "<group>"; };
 		96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMacroTest.c; sourceTree = "<group>"; };
 		96BD94D51AB0ED4400C06A1D /* TGMacroTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMacroTest.h; sourceTree = "<group>"; };
@@ -56,8 +52,6 @@
 		96BD94D81AB0ED4400C06A1D /* TGBitOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBitOutput.h; sourceTree = "<group>"; };
 		96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGHumanStructure.c; sourceTree = "<group>"; };
 		96BD94DB1AB0ED4400C06A1D /* TGHumanStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHumanStructure.h; sourceTree = "<group>"; };
-		96BD94DC1AB0ED4400C06A1D /* TGObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGObject.c; sourceTree = "<group>"; };
-		96BD94DD1AB0ED4400C06A1D /* TGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGObject.h; sourceTree = "<group>"; };
 		96BD94DF1AB0ED4400C06A1D /* TGMamaPapa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMamaPapa.c; sourceTree = "<group>"; };
 		96BD94E01AB0ED4400C06A1D /* TGMamaPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMamaPapa.h; sourceTree = "<group>"; };
 		96BD94E11AB0ED4400C06A1D /* TGMamaPapa_Test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGMamaPapa_Test.c; sourceTree = "<group>"; };
@@ -66,14 +60,20 @@
 		96BD94E51AB0ED4400C06A1D /* TGStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructure.h; sourceTree = "<group>"; };
 		96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStructureTests.c; sourceTree = "<group>"; };
 		96BD94E71AB0ED4400C06A1D /* TGStructureTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStructureTests.h; sourceTree = "<group>"; };
-		96F07D081AC8309300A9D2D5 /* TGArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGArray.c; sourceTree = "<group>"; };
-		96F07D091AC8309300A9D2D5 /* TGArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArray.h; sourceTree = "<group>"; };
 		96F3F0CD1AD19CC5002C4418 /* TGTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGTests.c; sourceTree = "<group>"; };
 		96F3F0CE1AD19CC5002C4418 /* TGTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTests.h; sourceTree = "<group>"; };
 		96F3F0D11AD19DE4002C4418 /* TGArrayTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGArrayTests.c; sourceTree = "<group>"; };
 		96F3F0D21AD19DE4002C4418 /* TGArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArrayTests.h; sourceTree = "<group>"; };
 		96F3F0D41AD19DE4002C4418 /* TGStringTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStringTests.c; sourceTree = "<group>"; };
 		96F3F0D51AD19DE4002C4418 /* TGStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStringTests.h; sourceTree = "<group>"; };
+		96F3F0DA1AD1A57A002C4418 /* TGArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGArray.c; sourceTree = "<group>"; };
+		96F3F0DB1AD1A57A002C4418 /* TGArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArray.h; sourceTree = "<group>"; };
+		96F3F0DC1AD1A57A002C4418 /* TGObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGObject.c; sourceTree = "<group>"; };
+		96F3F0DD1AD1A57A002C4418 /* TGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGObject.h; sourceTree = "<group>"; };
+		96F3F0DF1AD1A57A002C4418 /* TGPropertyAccessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGPropertyAccessors.c; sourceTree = "<group>"; };
+		96F3F0E01AD1A57A002C4418 /* TGPropertyAccessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPropertyAccessors.h; sourceTree = "<group>"; };
+		96F3F0E21AD1A57A002C4418 /* TGString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGString.c; sourceTree = "<group>"; };
+		96F3F0E31AD1A57A002C4418 /* TGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,17 +149,10 @@
 		96BD94D91AB0ED4400C06A1D /* TGHuman */ = {
 			isa = PBXGroup;
 			children = (
-				96F07D0B1AC83DA100A9D2D5 /* Tests */,
 				96BD94DA1AB0ED4400C06A1D /* TGHumanStructure.c */,
 				96BD94DB1AB0ED4400C06A1D /* TGHumanStructure.h */,
-				96BD94DC1AB0ED4400C06A1D /* TGObject.c */,
-				96BD94DD1AB0ED4400C06A1D /* TGObject.h */,
-				96A4953C1ABF6EDB006E0228 /* TGString.c */,
-				96A4953D1ABF6EDB006E0228 /* TGString.h */,
-				96F07D081AC8309300A9D2D5 /* TGArray.c */,
-				96F07D091AC8309300A9D2D5 /* TGArray.h */,
-				969A7DAC1ACC679E00A2505D /* TGPropertyAccessors.c */,
-				969A7DAD1ACC679E00A2505D /* TGPropertyAccessors.h */,
+				96F3F0D81AD1A57A002C4418 /* Sources */,
+				96F07D0B1AC83DA100A9D2D5 /* Tests */,
 			);
 			path = TGHuman;
 			sourceTree = "<group>";
@@ -215,6 +208,45 @@
 			path = TGStringTests;
 			sourceTree = "<group>";
 		};
+		96F3F0D81AD1A57A002C4418 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				96F3F0DC1AD1A57A002C4418 /* TGObject.c */,
+				96F3F0DD1AD1A57A002C4418 /* TGObject.h */,
+				96F3F0D91AD1A57A002C4418 /* TGArray */,
+				96F3F0DE1AD1A57A002C4418 /* TGPropertyAccesors */,
+				96F3F0E11AD1A57A002C4418 /* TGString */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		96F3F0D91AD1A57A002C4418 /* TGArray */ = {
+			isa = PBXGroup;
+			children = (
+				96F3F0DA1AD1A57A002C4418 /* TGArray.c */,
+				96F3F0DB1AD1A57A002C4418 /* TGArray.h */,
+			);
+			path = TGArray;
+			sourceTree = "<group>";
+		};
+		96F3F0DE1AD1A57A002C4418 /* TGPropertyAccesors */ = {
+			isa = PBXGroup;
+			children = (
+				96F3F0DF1AD1A57A002C4418 /* TGPropertyAccessors.c */,
+				96F3F0E01AD1A57A002C4418 /* TGPropertyAccessors.h */,
+			);
+			path = TGPropertyAccesors;
+			sourceTree = "<group>";
+		};
+		96F3F0E11AD1A57A002C4418 /* TGString */ = {
+			isa = PBXGroup;
+			children = (
+				96F3F0E21AD1A57A002C4418 /* TGString.c */,
+				96F3F0E31AD1A57A002C4418 /* TGString.h */,
+			);
+			path = TGString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,22 +298,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BD94EB1AB0ED4400C06A1D /* TGObject.c in Sources */,
 				96BD94ED1AB0ED4400C06A1D /* TGMamaPapa_Test.c in Sources */,
+				96F3F0E41AD1A57A002C4418 /* TGArray.c in Sources */,
+				96F3F0E61AD1A57A002C4418 /* TGPropertyAccessors.c in Sources */,
 				96BD94EE1AB0ED4400C06A1D /* TGStructure.c in Sources */,
 				96A4953B1ABF56B5006E0228 /* TGBitOutputTests.c in Sources */,
-				96F07D0A1AC8309300A9D2D5 /* TGArray.c in Sources */,
 				96F3F0D71AD19DE4002C4418 /* TGStringTests.c in Sources */,
 				96BD94EF1AB0ED4400C06A1D /* TGStructureTests.c in Sources */,
 				96BD94EA1AB0ED4400C06A1D /* TGHumanStructure.c in Sources */,
 				96BD94EC1AB0ED4400C06A1D /* TGMamaPapa.c in Sources */,
 				96F3F0CF1AD19CC5002C4418 /* TGTests.c in Sources */,
 				96F3F0D61AD19DE4002C4418 /* TGArrayTests.c in Sources */,
-				969A7DAE1ACC679E00A2505D /* TGPropertyAccessors.c in Sources */,
 				781D3D001AB08B64001F4E02 /* main.c in Sources */,
 				96BD94E91AB0ED4400C06A1D /* TGBitOutput.c in Sources */,
-				96A4953E1ABF6EDB006E0228 /* TGString.c in Sources */,
+				96F3F0E71AD1A57A002C4418 /* TGString.c in Sources */,
 				96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */,
+				96F3F0E51AD1A57A002C4418 /* TGObject.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
