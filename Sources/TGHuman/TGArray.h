@@ -16,7 +16,7 @@
 typedef struct TGArray TGArray;
 
 struct TGArray {
-    TGObject *_object;
+    TGObject _object;
     
     void **_array;
     size_t _length;

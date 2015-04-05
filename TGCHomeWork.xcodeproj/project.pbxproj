@@ -22,6 +22,7 @@
 		96BD94EF1AB0ED4400C06A1D /* TGStructureTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94E61AB0ED4400C06A1D /* TGStructureTests.c */; };
 		96F07D0A1AC8309300A9D2D5 /* TGArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F07D081AC8309300A9D2D5 /* TGArray.c */; };
 		96F07D0E1AC83DE800A9D2D5 /* TGStringTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F07D0C1AC83DE800A9D2D5 /* TGStringTests.c */; };
+		96F3F0CB1AD18E21002C4418 /* TGArrayTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0C91AD18E21002C4418 /* TGArrayTests.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,8 @@
 		96F07D091AC8309300A9D2D5 /* TGArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArray.h; sourceTree = "<group>"; };
 		96F07D0C1AC83DE800A9D2D5 /* TGStringTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGStringTests.c; sourceTree = "<group>"; };
 		96F07D0D1AC83DE800A9D2D5 /* TGStringTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStringTests.h; sourceTree = "<group>"; };
+		96F3F0C91AD18E21002C4418 /* TGArrayTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGArrayTests.c; sourceTree = "<group>"; };
+		96F3F0CA1AD18E21002C4418 /* TGArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGArrayTests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 			children = (
 				96F07D0C1AC83DE800A9D2D5 /* TGStringTests.c */,
 				96F07D0D1AC83DE800A9D2D5 /* TGStringTests.h */,
+				96F3F0C91AD18E21002C4418 /* TGArrayTests.c */,
+				96F3F0CA1AD18E21002C4418 /* TGArrayTests.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				96BD94EA1AB0ED4400C06A1D /* TGHumanStructure.c in Sources */,
 				96BD94EC1AB0ED4400C06A1D /* TGMamaPapa.c in Sources */,
 				969A7DAE1ACC679E00A2505D /* TGPropertyAccessors.c in Sources */,
+				96F3F0CB1AD18E21002C4418 /* TGArrayTests.c in Sources */,
 				781D3D001AB08B64001F4E02 /* main.c in Sources */,
 				96F07D0E1AC83DE800A9D2D5 /* TGStringTests.c in Sources */,
 				96BD94E91AB0ED4400C06A1D /* TGBitOutput.c in Sources */,
