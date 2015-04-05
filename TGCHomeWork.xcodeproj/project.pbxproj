@@ -25,6 +25,7 @@
 		96F3F0E61AD1A57A002C4418 /* TGPropertyAccessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0DF1AD1A57A002C4418 /* TGPropertyAccessors.c */; };
 		96F3F0E71AD1A57A002C4418 /* TGString.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0E21AD1A57A002C4418 /* TGString.c */; };
 		96F3F0EB1AD1A63C002C4418 /* TGNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0E91AD1A63C002C4418 /* TGNode.c */; };
+		96F3F0EF1AD1B306002C4418 /* TGLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F3F0ED1AD1B306002C4418 /* TGLinkedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,8 @@
 		96F3F0E31AD1A57A002C4418 /* TGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGString.h; sourceTree = "<group>"; };
 		96F3F0E91AD1A63C002C4418 /* TGNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGNode.c; sourceTree = "<group>"; };
 		96F3F0EA1AD1A63C002C4418 /* TGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGNode.h; sourceTree = "<group>"; };
+		96F3F0ED1AD1B306002C4418 /* TGLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGLinkedList.c; sourceTree = "<group>"; };
+		96F3F0EE1AD1B306002C4418 /* TGLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLinkedList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +223,7 @@
 				96F3F0DE1AD1A57A002C4418 /* TGPropertyAccesors */,
 				96F3F0E11AD1A57A002C4418 /* TGString */,
 				96F3F0E81AD1A628002C4418 /* TGNode */,
+				96F3F0EC1AD1B2ED002C4418 /* TGLinkedList */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -258,6 +262,15 @@
 				96F3F0EA1AD1A63C002C4418 /* TGNode.h */,
 			);
 			path = TGNode;
+			sourceTree = "<group>";
+		};
+		96F3F0EC1AD1B2ED002C4418 /* TGLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				96F3F0ED1AD1B306002C4418 /* TGLinkedList.c */,
+				96F3F0EE1AD1B306002C4418 /* TGLinkedList.h */,
+			);
+			path = TGLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BD94ED1AB0ED4400C06A1D /* TGMamaPapa_Test.c in Sources */,
+				96F3F0EF1AD1B306002C4418 /* TGLinkedList.c in Sources */,
 				96F3F0EB1AD1A63C002C4418 /* TGNode.c in Sources */,
 				96F3F0E41AD1A57A002C4418 /* TGArray.c in Sources */,
 				96F3F0E61AD1A57A002C4418 /* TGPropertyAccessors.c in Sources */,
