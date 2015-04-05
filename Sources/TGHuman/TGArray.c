@@ -15,8 +15,10 @@
 #pragma mark -
 #pragma mark Private Declaration
 
+static
 void TGArraySetCount(TGArray *array, size_t count);
 
+static
 void TGArraySetObjectAtIndex(TGArray *array, void *object, uint32_t index);
 
 #pragma mark -
