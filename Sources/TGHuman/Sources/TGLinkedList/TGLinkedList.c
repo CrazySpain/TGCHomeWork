@@ -9,6 +9,21 @@
 #include "TGLinkedList.h"
 
 #pragma mark -
+#pragma mark Private Declaration
+
+static
+void TGLinkedListSetNodeCount(TGLinkedList *list, uint64_t count);
+
+static
+TGNode *TGLinkedListGetRootNode(TGLinkedList *list);
+
+static
+void TGLinkedListAddMutation(TGLinkedList *list);
+
+static
+void TGLinkedListSetRootNode(TGLinkedList *list, TGNode *node);
+
+#pragma mark -
 #pragma mark Accessors
 
 uint64_t TGLinkedListGetNodeCount(TGLinkedList *list) {
@@ -17,6 +32,37 @@ uint64_t TGLinkedListGetNodeCount(TGLinkedList *list) {
     }
     
     return 0;
+}
+
+void TGLinkedListSetNodeCount(TGLinkedList *list, uint64_t count) {
+    if (NULL != list) {
+        list->_nodeCount++;
+    }
+}
+
+TGNode *TGLinkedListGetRootNode(TGLinkedList *list) {
+    if (NULL != list) {
+        return list->_rootNode;
+    }
+    
+    return NULL;
+}
+
+void TGLinkedListSetRootNode(TGLinkedList *list, TGNode *node) {
+    if (NULL != list) {
+        TGNode *rootNode = TGLinkedListGetRootNode(list);
+        if (rootNode != node) {
+            if (NULL != node) {
+                TGObjectRetain(node);
+            }
+            
+            if (NULL != rootNode) {
+                TGObjectRelease(rootNode);
+            }
+            
+            list->_rootNode = node;
+        }
+    }
 }
 
 #pragma mark -
@@ -29,7 +75,15 @@ void __TGLinkedListDealloc(TGLinkedList *list) {
 }
 
 void TGLinkedListAddObject(TGLinkedList *list, void *object) {
-    
+    if ((NULL != list) && (NULL != object)) {
+        TGNode *rootNode = TGLinkedListGetRootNode(list);
+        TGNode *node = TGNodeWithDataAndNextNode(object, rootNode);
+        
+        TGLinkedListAddMutation(list);
+
+        TGLinkedListSetRootNode(list, node);
+        TGLinkedListSetNodeCount(list, (TGLinkedListGetNodeCount(list) + 1));
+    }
 }
 
 void TGLinkedListRemoveObject(TGLinkedList *list, void *object) {
@@ -58,4 +112,13 @@ void TGLinkedListInsertAfterObject(TGLinkedList *list, void *insertionPoint, voi
 
 void *TGLinkedListGetFirstObject(TGLinkedList *list) {
     return NULL;
+}
+
+#pragma mark -
+#pragma mark Private Implementation
+
+void TGLinkedListAddMutation(TGLinkedList *list) {
+    if (NULL != list) {
+        list->_mutationCount++;
+    }
 }
