@@ -19,16 +19,19 @@ struct TGObject {
     uint64_t _referenceCount;
 };
 
-extern
-void *TGObjectCreate(size_t objectSize, TGDealloc dealloc);
+#define TGObjectCreate(type) \
+    __TGObjectCreate(sizeof(type), (TGDealloc)__##type##Dealloc)
 
 extern
-void TGObjectRetain(void *object);
+void *__TGObjectCreate(size_t objectSize, TGDealloc dealloc);
+
+extern
+void *TGObjectRetain(void *object);
 
 extern
 void TGObjectRelease(void *object);
 
 extern
-void TGObjectDeallocate(void *object);
+void __TGObjectDealloc(void *object);
 
 #endif /* defined(__TGHuman__TGObject__) */
