@@ -11,6 +11,11 @@
 @interface TGCreature ()
 @property (nonatomic, retain) NSMutableArray *mutableKids;
 
+- (instancetype)initWithGender:(TGGender)gender
+                          name:(NSString *)name
+                           age:(NSInteger)age
+                        weight:(float)weight;
+
 @end
 
 @implementation TGCreature
@@ -22,6 +27,48 @@
 
 + (instancetype)creature {
     return [[[self alloc] init] autorelease];
+}
+
++ (instancetype)creatureWithGender:(TGGender)gender
+                              name:(NSString *)name
+                               age:(NSInteger)age
+                            weight:(float)weight
+{
+    return [[[self alloc] initWithGender:gender name:name age:age weight:weight] autorelease];
+}
+
+#pragma mark -
+#pragma mark Initialisations and Deallocations
+
+- (void)dealloc {
+    self.mutableKids = nil;
+    self.name = nil;
+    
+    [super dealloc];
+}
+
+- (instancetype)init {
+    if (self = [super init]) {
+        self.mutableKids = [NSMutableArray array];
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithGender:(TGGender)gender
+                          name:(NSString *)name
+                           age:(NSInteger)age
+                        weight:(float)weight
+{
+    if (self = [super init]) {
+        self.mutableKids = [NSMutableArray array];
+        self.gender = gender;
+        self.name = name;
+        self.age = age;
+        self.weight = weight;
+    }
+    
+    return self;
 }
 
 #pragma mark -

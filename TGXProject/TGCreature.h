@@ -24,6 +24,10 @@ typedef enum {
 @property (nonatomic, readonly) NSArray *kids;
 
 + (instancetype)creature;
++ (instancetype)creatureWithGender:(TGGender)gender
+                              name:(NSString *)name
+                               age:(NSInteger)age
+                            weight:(float)weight;
 
 - (void)sayHi;
 - (void)goToWar;
