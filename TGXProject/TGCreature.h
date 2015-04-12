@@ -25,6 +25,13 @@ typedef enum {
 
 + (instancetype)creature;
 
+- (void)sayHi;
+- (void)goToWar;
+- (TGCreature *)babyWithGender:(TGGender)gender;
+
+- (void)addKid:(TGCreature *)kid;
+- (void)killKid:(TGCreature *)kid;
+
 @end
 
 #endif
