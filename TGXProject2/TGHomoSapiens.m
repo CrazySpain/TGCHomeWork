@@ -18,13 +18,6 @@
 @dynamic kids;
 
 #pragma mark -
-#pragma mark Class Methods
-
-+ (instancetype)creature {
-    return [[[self alloc] init] autorelease];
-}
-
-#pragma mark -
 #pragma mark Initialisations and Deallocations
 
 - (void)dealloc {

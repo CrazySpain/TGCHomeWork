@@ -14,8 +14,6 @@
 @property (nonatomic, assign) float weight;
 @property (nonatomic, readonly) NSArray *kids;
 
-+ (instancetype)creature;
-
 - (void)sayHi;
 
 - (void)addKid:(TGHomoSapiens *)kid;
