@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Tora. All rights reserved.
 //
 
-#import "TGCreature.h"
+#import "TGHomoSapiens.h"
 
-@interface TGMan : TGCreature
+@interface TGMan : TGHomoSapiens
 
 @end

@@ -11,7 +11,7 @@
 		781D3D021AB08B64001F4E02 /* TGCHomeWork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */; };
 		9621EA7C1AD3049C00A0179B /* TGEnumerator.c in Sources */ = {isa = PBXBuildFile; fileRef = 9621EA7A1AD3049C00A0179B /* TGEnumerator.c */; };
 		96486D0D1AEFB5E500A134AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D0C1AEFB5E500A134AF /* main.m */; };
-		96486D131AEFB67900A134AF /* TGCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D121AEFB67900A134AF /* TGCreature.m */; };
+		96486D131AEFB67900A134AF /* TGHomoSapiens.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D121AEFB67900A134AF /* TGHomoSapiens.m */; };
 		96486D201AEFBA7400A134AF /* TGMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D1F1AEFBA7400A134AF /* TGMan.m */; };
 		96486D231AEFBA8500A134AF /* TGWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D221AEFBA8500A134AF /* TGWoman.m */; };
 		96A4953B1ABF56B5006E0228 /* TGBitOutputTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A495391ABF56B5006E0228 /* TGBitOutputTests.c */; };
@@ -74,8 +74,8 @@
 		9621EA7B1AD3049C00A0179B /* TGEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGEnumerator.h; sourceTree = "<group>"; };
 		96486D0A1AEFB5E500A134AF /* TGXProject2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGXProject2; sourceTree = BUILT_PRODUCTS_DIR; };
 		96486D0C1AEFB5E500A134AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96486D111AEFB67900A134AF /* TGCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCreature.h; sourceTree = "<group>"; };
-		96486D121AEFB67900A134AF /* TGCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCreature.m; sourceTree = "<group>"; };
+		96486D111AEFB67900A134AF /* TGHomoSapiens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHomoSapiens.h; sourceTree = "<group>"; };
+		96486D121AEFB67900A134AF /* TGHomoSapiens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHomoSapiens.m; sourceTree = "<group>"; };
 		96486D1E1AEFBA7400A134AF /* TGMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMan.h; sourceTree = "<group>"; };
 		96486D1F1AEFBA7400A134AF /* TGMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMan.m; sourceTree = "<group>"; };
 		96486D211AEFBA8500A134AF /* TGWoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWoman.h; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 		96486D0B1AEFB5E500A134AF /* TGXProject2 */ = {
 			isa = PBXGroup;
 			children = (
-				96486D111AEFB67900A134AF /* TGCreature.h */,
-				96486D121AEFB67900A134AF /* TGCreature.m */,
+				96486D111AEFB67900A134AF /* TGHomoSapiens.h */,
+				96486D121AEFB67900A134AF /* TGHomoSapiens.m */,
 				96486D191AEFB9EF00A134AF /* TGMan */,
 				96486D1A1AEFB9EF00A134AF /* TGWoman */,
 				96486D0C1AEFB5E500A134AF /* main.m */,
@@ -496,7 +496,7 @@
 				96486D201AEFBA7400A134AF /* TGMan.m in Sources */,
 				96486D231AEFBA8500A134AF /* TGWoman.m in Sources */,
 				96486D0D1AEFB5E500A134AF /* main.m in Sources */,
-				96486D131AEFB67900A134AF /* TGCreature.m in Sources */,
+				96486D131AEFB67900A134AF /* TGHomoSapiens.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

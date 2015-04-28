@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Tora. All rights reserved.
 //
 
-#import "TGCreature.h"
+#import "TGHomoSapiens.h"
 
-@interface TGWoman : TGCreature
+@interface TGWoman : TGHomoSapiens
 
 @end

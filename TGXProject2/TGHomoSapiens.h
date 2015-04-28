@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TGCreature : NSObject
+@interface TGHomoSapiens : NSObject
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, assign) NSInteger age;
 @property (nonatomic, assign) float weight;
@@ -18,8 +18,8 @@
 
 - (void)sayHi;
 
-- (void)addKid:(TGCreature *)kid;
-- (void)killKid:(TGCreature *)kid;
+- (void)addKid:(TGHomoSapiens *)kid;
+- (void)killKid:(TGHomoSapiens *)kid;
 
 - (void)performGenderSpecificOperation;
 

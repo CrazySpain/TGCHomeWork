@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Tora. All rights reserved.
 //
 
-#import "TGCreature.h"
+#import "TGHomoSapiens.h"
 
-@interface TGCreature ()
+@interface TGHomoSapiens ()
 @property (nonatomic, retain) NSMutableArray *mutableKids;
 
 @end
 
-@implementation TGCreature
+@implementation TGHomoSapiens
 
 @dynamic kids;
 
@@ -54,18 +54,18 @@
 
 - (void)sayHi {
     NSLog(@"Слава нацiї!\n-Смерть ворогам!");
-    for (TGCreature *kid in self.mutableKids) {
+    for (TGHomoSapiens *kid in self.mutableKids) {
         [kid sayHi];
     }
 }
 
-- (void)addKid:(TGCreature *)kid {
+- (void)addKid:(TGHomoSapiens *)kid {
     if (![self.mutableKids containsObject:kid]) {
         [self.mutableKids addObject:kid];
     }
 }
 
-- (void)killKid:(TGCreature *)kid {
+- (void)killKid:(TGHomoSapiens *)kid {
     [self.mutableKids removeObject:kid];
 }
 
