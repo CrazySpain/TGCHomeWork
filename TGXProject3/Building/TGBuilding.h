@@ -15,6 +15,6 @@
 
 + (instancetype)buildingWithRoomsCount:(NSUInteger)count;
 
-- (TGRoom *)roomWithClass:(Class)roomClass;
+- (id)roomWithClass:(Class)roomClass;
 
 @end

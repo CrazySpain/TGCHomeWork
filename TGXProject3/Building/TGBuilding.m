@@ -60,7 +60,7 @@
 #pragma mark -
 #pragma mark Public Methods
 
-- (TGRoom *)roomWithClass:(Class)roomClass {
+- (id)roomWithClass:(Class)roomClass {
     NSMutableArray *rooms = self.mutableRooms;
     for (TGRoom *room in rooms) {
         if ([room isKindOfClass:roomClass]) {

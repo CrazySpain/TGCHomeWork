@@ -27,11 +27,11 @@
 #pragma mark -
 #pragma mark Public Methods
 
-- (TGBooker *)availableBooker {
+- (id)availableBooker {
     return [self availablePersonWithClass:[TGBooker class]];
 }
 
-- (TGDirector *)availableDirector {
+- (id)availableDirector {
     return [self availablePersonWithClass:[TGDirector class]];
 }
 
