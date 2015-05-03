@@ -20,6 +20,11 @@
 		96B52FFA1AF63A180091ED81 /* TGBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B52FF91AF63A180091ED81 /* TGBuilding.m */; };
 		96B52FFD1AF63DF40091ED81 /* TGAdministrativeBuiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B52FFC1AF63DF40091ED81 /* TGAdministrativeBuiding.m */; };
 		96B530001AF63E590091ED81 /* TGCarwashingBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B52FFF1AF63E590091ED81 /* TGCarwashingBuilding.m */; };
+		96B530061AF640B30091ED81 /* TGRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530051AF640B30091ED81 /* TGRoom.m */; };
+		96B5300D1AF64E6B0091ED81 /* TGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5300C1AF64E6B0091ED81 /* TGPerson.m */; };
+		96B530101AF64EA50091ED81 /* TGBooker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5300F1AF64EA50091ED81 /* TGBooker.m */; };
+		96B530131AF64EB80091ED81 /* TGDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530121AF64EB80091ED81 /* TGDirector.m */; };
+		96B530161AF64EC60091ED81 /* TGWasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530151AF64EC60091ED81 /* TGWasher.m */; };
 		96B605121AD59D8200D142EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605111AD59D8200D142EC /* main.m */; };
 		96B605171AD59EC700D142EC /* TGCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605161AD59EC700D142EC /* TGCreature.m */; };
 		96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */; };
@@ -106,6 +111,16 @@
 		96B52FFC1AF63DF40091ED81 /* TGAdministrativeBuiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAdministrativeBuiding.m; sourceTree = "<group>"; };
 		96B52FFE1AF63E590091ED81 /* TGCarwashingBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCarwashingBuilding.h; sourceTree = "<group>"; };
 		96B52FFF1AF63E590091ED81 /* TGCarwashingBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCarwashingBuilding.m; sourceTree = "<group>"; };
+		96B530041AF640B30091ED81 /* TGRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRoom.h; sourceTree = "<group>"; };
+		96B530051AF640B30091ED81 /* TGRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRoom.m; sourceTree = "<group>"; };
+		96B5300B1AF64E6B0091ED81 /* TGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPerson.h; sourceTree = "<group>"; };
+		96B5300C1AF64E6B0091ED81 /* TGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPerson.m; sourceTree = "<group>"; };
+		96B5300E1AF64EA50091ED81 /* TGBooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBooker.h; sourceTree = "<group>"; };
+		96B5300F1AF64EA50091ED81 /* TGBooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBooker.m; sourceTree = "<group>"; };
+		96B530111AF64EB80091ED81 /* TGDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDirector.h; sourceTree = "<group>"; };
+		96B530121AF64EB80091ED81 /* TGDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDirector.m; sourceTree = "<group>"; };
+		96B530141AF64EC60091ED81 /* TGWasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWasher.h; sourceTree = "<group>"; };
+		96B530151AF64EC60091ED81 /* TGWasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWasher.m; sourceTree = "<group>"; };
 		96B6050F1AD59D8200D142EC /* TGXProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGXProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B605111AD59D8200D142EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96B605161AD59EC700D142EC /* TGCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCreature.m; sourceTree = "<group>"; };
@@ -252,6 +267,8 @@
 		96B52FEF1AF635F10091ED81 /* TGXProject3 */ = {
 			isa = PBXGroup;
 			children = (
+				96B530071AF64E500091ED81 /* People */,
+				96B530011AF640590091ED81 /* Room */,
 				96B52FF51AF639C70091ED81 /* Building */,
 				96B52FF01AF635F10091ED81 /* main.m */,
 			);
@@ -285,6 +302,70 @@
 				96B52FFF1AF63E590091ED81 /* TGCarwashingBuilding.m */,
 			);
 			path = TGCarwashingBuilding;
+			sourceTree = "<group>";
+		};
+		96B530011AF640590091ED81 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				96B530041AF640B30091ED81 /* TGRoom.h */,
+				96B530051AF640B30091ED81 /* TGRoom.m */,
+				96B530021AF640590091ED81 /* TGAdministrativeRoom */,
+				96B530031AF640590091ED81 /* TGCarwashingRoom */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		96B530021AF640590091ED81 /* TGAdministrativeRoom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TGAdministrativeRoom;
+			sourceTree = "<group>";
+		};
+		96B530031AF640590091ED81 /* TGCarwashingRoom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TGCarwashingRoom;
+			sourceTree = "<group>";
+		};
+		96B530071AF64E500091ED81 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				96B5300B1AF64E6B0091ED81 /* TGPerson.h */,
+				96B5300C1AF64E6B0091ED81 /* TGPerson.m */,
+				96B530081AF64E500091ED81 /* TGBooker */,
+				96B530091AF64E500091ED81 /* TGDirector */,
+				96B5300A1AF64E500091ED81 /* TGWasher */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		96B530081AF64E500091ED81 /* TGBooker */ = {
+			isa = PBXGroup;
+			children = (
+				96B5300E1AF64EA50091ED81 /* TGBooker.h */,
+				96B5300F1AF64EA50091ED81 /* TGBooker.m */,
+			);
+			path = TGBooker;
+			sourceTree = "<group>";
+		};
+		96B530091AF64E500091ED81 /* TGDirector */ = {
+			isa = PBXGroup;
+			children = (
+				96B530111AF64EB80091ED81 /* TGDirector.h */,
+				96B530121AF64EB80091ED81 /* TGDirector.m */,
+			);
+			path = TGDirector;
+			sourceTree = "<group>";
+		};
+		96B5300A1AF64E500091ED81 /* TGWasher */ = {
+			isa = PBXGroup;
+			children = (
+				96B530141AF64EC60091ED81 /* TGWasher.h */,
+				96B530151AF64EC60091ED81 /* TGWasher.m */,
+			);
+			path = TGWasher;
 			sourceTree = "<group>";
 		};
 		96B605101AD59D8200D142EC /* TGXProject */ = {
@@ -607,10 +688,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B530101AF64EA50091ED81 /* TGBooker.m in Sources */,
 				96B52FFD1AF63DF40091ED81 /* TGAdministrativeBuiding.m in Sources */,
 				96B530001AF63E590091ED81 /* TGCarwashingBuilding.m in Sources */,
+				96B530161AF64EC60091ED81 /* TGWasher.m in Sources */,
 				96B52FFA1AF63A180091ED81 /* TGBuilding.m in Sources */,
+				96B5300D1AF64E6B0091ED81 /* TGPerson.m in Sources */,
 				96B52FF11AF635F10091ED81 /* main.m in Sources */,
+				96B530131AF64EB80091ED81 /* TGDirector.m in Sources */,
+				96B530061AF640B30091ED81 /* TGRoom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
