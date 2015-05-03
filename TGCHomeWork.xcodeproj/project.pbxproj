@@ -10,6 +10,11 @@
 		781D3D001AB08B64001F4E02 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 781D3CFF1AB08B64001F4E02 /* main.c */; };
 		781D3D021AB08B64001F4E02 /* TGCHomeWork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */; };
 		9621EA7C1AD3049C00A0179B /* TGEnumerator.c in Sources */ = {isa = PBXBuildFile; fileRef = 9621EA7A1AD3049C00A0179B /* TGEnumerator.c */; };
+		96486D0D1AEFB5E500A134AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D0C1AEFB5E500A134AF /* main.m */; };
+		96486D131AEFB67900A134AF /* TGHomoSapiens.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D121AEFB67900A134AF /* TGHomoSapiens.m */; };
+		96486D201AEFBA7400A134AF /* TGMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D1F1AEFBA7400A134AF /* TGMan.m */; };
+		96486D231AEFBA8500A134AF /* TGWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D221AEFBA8500A134AF /* TGWoman.m */; };
+		96486D271AEFBE8300A134AF /* NSObject+TGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96486D261AEFBE8300A134AF /* NSObject+TGExtensions.m */; };
 		96A4953B1ABF56B5006E0228 /* TGBitOutputTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A495391ABF56B5006E0228 /* TGBitOutputTests.c */; };
 		96B605121AD59D8200D142EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605111AD59D8200D142EC /* main.m */; };
 		96B605171AD59EC700D142EC /* TGCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605161AD59EC700D142EC /* TGCreature.m */; };
@@ -42,6 +47,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		96486D081AEFB5E500A134AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		96B6050D1AD59D8200D142EC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +73,16 @@
 		781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TGCHomeWork.1; sourceTree = "<group>"; };
 		9621EA7A1AD3049C00A0179B /* TGEnumerator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGEnumerator.c; sourceTree = "<group>"; };
 		9621EA7B1AD3049C00A0179B /* TGEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGEnumerator.h; sourceTree = "<group>"; };
+		96486D0A1AEFB5E500A134AF /* TGXProject2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGXProject2; sourceTree = BUILT_PRODUCTS_DIR; };
+		96486D0C1AEFB5E500A134AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96486D111AEFB67900A134AF /* TGHomoSapiens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHomoSapiens.h; sourceTree = "<group>"; };
+		96486D121AEFB67900A134AF /* TGHomoSapiens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHomoSapiens.m; sourceTree = "<group>"; };
+		96486D1E1AEFBA7400A134AF /* TGMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMan.h; sourceTree = "<group>"; };
+		96486D1F1AEFBA7400A134AF /* TGMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMan.m; sourceTree = "<group>"; };
+		96486D211AEFBA8500A134AF /* TGWoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWoman.h; sourceTree = "<group>"; };
+		96486D221AEFBA8500A134AF /* TGWoman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWoman.m; sourceTree = "<group>"; };
+		96486D251AEFBE8300A134AF /* NSObject+TGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TGExtensions.h"; sourceTree = "<group>"; };
+		96486D261AEFBE8300A134AF /* NSObject+TGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TGExtensions.m"; sourceTree = "<group>"; };
 		96A495391ABF56B5006E0228 /* TGBitOutputTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGBitOutputTests.c; sourceTree = "<group>"; };
 		96A4953A1ABF56B5006E0228 /* TGBitOutputTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBitOutputTests.h; sourceTree = "<group>"; };
 		96B6050F1AD59D8200D142EC /* TGXProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGXProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +132,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96486D071AEFB5E500A134AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96B6050C1AD59D8200D142EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +155,7 @@
 				96BD94D11AB0ED4400C06A1D /* Sources */,
 				781D3CFE1AB08B64001F4E02 /* TGCHomeWork */,
 				96B605101AD59D8200D142EC /* TGXProject */,
+				96486D0B1AEFB5E500A134AF /* TGXProject2 */,
 				781D3CFD1AB08B64001F4E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +165,7 @@
 			children = (
 				781D3CFC1AB08B64001F4E02 /* TGCHomeWork */,
 				96B6050F1AD59D8200D142EC /* TGXProject */,
+				96486D0A1AEFB5E500A134AF /* TGXProject2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +177,46 @@
 				781D3D011AB08B64001F4E02 /* TGCHomeWork.1 */,
 			);
 			path = TGCHomeWork;
+			sourceTree = "<group>";
+		};
+		96486D0B1AEFB5E500A134AF /* TGXProject2 */ = {
+			isa = PBXGroup;
+			children = (
+				96486D111AEFB67900A134AF /* TGHomoSapiens.h */,
+				96486D121AEFB67900A134AF /* TGHomoSapiens.m */,
+				96486D191AEFB9EF00A134AF /* TGMan */,
+				96486D1A1AEFB9EF00A134AF /* TGWoman */,
+				96486D241AEFBDF700A134AF /* Categories */,
+				96486D0C1AEFB5E500A134AF /* main.m */,
+			);
+			path = TGXProject2;
+			sourceTree = "<group>";
+		};
+		96486D191AEFB9EF00A134AF /* TGMan */ = {
+			isa = PBXGroup;
+			children = (
+				96486D1E1AEFBA7400A134AF /* TGMan.h */,
+				96486D1F1AEFBA7400A134AF /* TGMan.m */,
+			);
+			path = TGMan;
+			sourceTree = "<group>";
+		};
+		96486D1A1AEFB9EF00A134AF /* TGWoman */ = {
+			isa = PBXGroup;
+			children = (
+				96486D211AEFBA8500A134AF /* TGWoman.h */,
+				96486D221AEFBA8500A134AF /* TGWoman.m */,
+			);
+			path = TGWoman;
+			sourceTree = "<group>";
+		};
+		96486D241AEFBDF700A134AF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				96486D251AEFBE8300A134AF /* NSObject+TGExtensions.h */,
+				96486D261AEFBE8300A134AF /* NSObject+TGExtensions.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		96B605101AD59D8200D142EC /* TGXProject */ = {
@@ -332,6 +405,23 @@
 			productReference = 781D3CFC1AB08B64001F4E02 /* TGCHomeWork */;
 			productType = "com.apple.product-type.tool";
 		};
+		96486D091AEFB5E500A134AF /* TGXProject2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96486D101AEFB5E500A134AF /* Build configuration list for PBXNativeTarget "TGXProject2" */;
+			buildPhases = (
+				96486D061AEFB5E500A134AF /* Sources */,
+				96486D071AEFB5E500A134AF /* Frameworks */,
+				96486D081AEFB5E500A134AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGXProject2;
+			productName = TGXProject2;
+			productReference = 96486D0A1AEFB5E500A134AF /* TGXProject2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		96B6050E1AD59D8200D142EC /* TGXProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96B605151AD59D8200D142EC /* Build configuration list for PBXNativeTarget "TGXProject" */;
@@ -358,6 +448,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					96486D091AEFB5E500A134AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					96B6050E1AD59D8200D142EC = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -377,6 +470,7 @@
 			targets = (
 				781D3CFB1AB08B64001F4E02 /* TGCHomeWork */,
 				96B6050E1AD59D8200D142EC /* TGXProject */,
+				96486D091AEFB5E500A134AF /* TGXProject2 */,
 			);
 		};
 /* End PBXProject section */
@@ -405,6 +499,18 @@
 				96F3F0E71AD1A57A002C4418 /* TGString.c in Sources */,
 				96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */,
 				96F3F0E51AD1A57A002C4418 /* TGObject.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96486D061AEFB5E500A134AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96486D201AEFBA7400A134AF /* TGMan.m in Sources */,
+				96486D231AEFBA8500A134AF /* TGWoman.m in Sources */,
+				96486D0D1AEFB5E500A134AF /* main.m in Sources */,
+				96486D271AEFBE8300A134AF /* NSObject+TGExtensions.m in Sources */,
+				96486D131AEFB67900A134AF /* TGHomoSapiens.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +610,34 @@
 			};
 			name = Release;
 		};
+		96486D0E1AEFB5E500A134AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96486D0F1AEFB5E500A134AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		96B605131AD59D8200D142EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,6 +687,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		96486D101AEFB5E500A134AF /* Build configuration list for PBXNativeTarget "TGXProject2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96486D0E1AEFB5E500A134AF /* Debug */,
+				96486D0F1AEFB5E500A134AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96B605151AD59D8200D142EC /* Build configuration list for PBXNativeTarget "TGXProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -560,6 +703,7 @@
 				96B605141AD59D8200D142EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
