@@ -10,4 +10,18 @@
 
 @implementation TGWasher
 
+#pragma mark -
+#pragma mark Public Methods
+
+- (void)washCar:(TGCar *)car {
+    self.busy = YES;
+    
+    NSLog(@"Washing car!");
+    
+    self.money += car.money;
+    car.money = 0;
+    car.clean = YES;
+    self.busy = NO;
+}
+
 @end

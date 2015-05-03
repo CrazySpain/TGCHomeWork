@@ -10,4 +10,13 @@
 
 @implementation TGBooker
 
+#pragma mark -
+#pragma mark Public Methods
+
+- (void)countMoney {
+    self.busy = YES;
+    NSLog(@"Counted money!");
+    self.busy = NO;
+}
+
 @end

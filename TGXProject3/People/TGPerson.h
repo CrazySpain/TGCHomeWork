@@ -12,7 +12,8 @@
 @property (nonatomic, assign)   NSUInteger  experience;
 @property (nonatomic, assign)   NSUInteger  money;
 @property (nonatomic, assign)   float       salary;
-@property (nonatomic, assign)   BOOL        busy;
+
+@property (nonatomic, assign, getter=isBusy) BOOL busy;
 
 - (void)giveMoneyToPerson:(TGPerson *)person;
 

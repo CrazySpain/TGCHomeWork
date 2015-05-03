@@ -10,4 +10,13 @@
 
 @implementation TGDirector
 
+#pragma mark -
+#pragma mark Public Methods
+
+- (void)profit {
+    self.busy = YES;
+    NSLog(@"Getting profit!");
+    self.busy = NO;
+}
+
 @end

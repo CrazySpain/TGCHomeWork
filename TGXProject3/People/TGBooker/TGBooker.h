@@ -10,4 +10,6 @@
 
 @interface TGBooker : TGPerson
 
+- (void)countMoney;
+
 @end

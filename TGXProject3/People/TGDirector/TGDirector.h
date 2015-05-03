@@ -10,4 +10,6 @@
 
 @interface TGDirector : TGPerson
 
+- (void)profit;
+
 @end

@@ -8,6 +8,10 @@
 
 #import "TGPerson.h"
 
+#import "TGCar.h"
+
 @interface TGWasher : TGPerson
+
+- (void)washCar:(TGCar *)car;
 
 @end
