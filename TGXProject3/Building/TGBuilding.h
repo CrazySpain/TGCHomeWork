@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#import "TGRoom.h"
+
 @interface TGBuilding : NSObject
 @property (nonatomic, readonly) Class roomClass;
 
 + (instancetype)buildingWithRoomsCount:(NSUInteger)count;
+
+- (TGRoom *)roomWithClass:(Class)roomClass;
 
 @end

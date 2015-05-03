@@ -8,7 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#import "TGPerson.h"
+
 @interface TGRoom : NSObject
 
+- (TGPerson *)availablePersonWithClass:(Class)personClass;
+
+- (void)addWorker:(TGPerson *)worker;
+- (void)removeWorker:(TGPerson *)worker;
 
 @end

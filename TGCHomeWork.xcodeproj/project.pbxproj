@@ -26,6 +26,8 @@
 		96B530131AF64EB80091ED81 /* TGDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530121AF64EB80091ED81 /* TGDirector.m */; };
 		96B530161AF64EC60091ED81 /* TGWasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530151AF64EC60091ED81 /* TGWasher.m */; };
 		96B5301A1AF650680091ED81 /* TGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B530191AF650680091ED81 /* TGCar.m */; };
+		96B5301D1AF6539A0091ED81 /* TGAdministrativeRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5301C1AF6539A0091ED81 /* TGAdministrativeRoom.m */; };
+		96B530201AF653AD0091ED81 /* TGCarwashingRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B5301F1AF653AD0091ED81 /* TGCarwashingRoom.m */; };
 		96B605121AD59D8200D142EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605111AD59D8200D142EC /* main.m */; };
 		96B605171AD59EC700D142EC /* TGCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B605161AD59EC700D142EC /* TGCreature.m */; };
 		96BD94E81AB0ED4400C06A1D /* TGMacroTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BD94D41AB0ED4400C06A1D /* TGMacroTest.c */; };
@@ -124,6 +126,10 @@
 		96B530151AF64EC60091ED81 /* TGWasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWasher.m; sourceTree = "<group>"; };
 		96B530181AF650680091ED81 /* TGCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCar.h; sourceTree = "<group>"; };
 		96B530191AF650680091ED81 /* TGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCar.m; sourceTree = "<group>"; };
+		96B5301B1AF6539A0091ED81 /* TGAdministrativeRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAdministrativeRoom.h; sourceTree = "<group>"; };
+		96B5301C1AF6539A0091ED81 /* TGAdministrativeRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAdministrativeRoom.m; sourceTree = "<group>"; };
+		96B5301E1AF653AD0091ED81 /* TGCarwashingRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCarwashingRoom.h; sourceTree = "<group>"; };
+		96B5301F1AF653AD0091ED81 /* TGCarwashingRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCarwashingRoom.m; sourceTree = "<group>"; };
 		96B6050F1AD59D8200D142EC /* TGXProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGXProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B605111AD59D8200D142EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96B605161AD59EC700D142EC /* TGCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCreature.m; sourceTree = "<group>"; };
@@ -322,6 +328,8 @@
 		96B530021AF640590091ED81 /* TGAdministrativeRoom */ = {
 			isa = PBXGroup;
 			children = (
+				96B5301B1AF6539A0091ED81 /* TGAdministrativeRoom.h */,
+				96B5301C1AF6539A0091ED81 /* TGAdministrativeRoom.m */,
 			);
 			path = TGAdministrativeRoom;
 			sourceTree = "<group>";
@@ -329,6 +337,8 @@
 		96B530031AF640590091ED81 /* TGCarwashingRoom */ = {
 			isa = PBXGroup;
 			children = (
+				96B5301E1AF653AD0091ED81 /* TGCarwashingRoom.h */,
+				96B5301F1AF653AD0091ED81 /* TGCarwashingRoom.m */,
 			);
 			path = TGCarwashingRoom;
 			sourceTree = "<group>";
@@ -704,10 +714,12 @@
 				96B530101AF64EA50091ED81 /* TGBooker.m in Sources */,
 				96B52FFD1AF63DF40091ED81 /* TGAdministrativeBuiding.m in Sources */,
 				96B530001AF63E590091ED81 /* TGCarwashingBuilding.m in Sources */,
+				96B5301D1AF6539A0091ED81 /* TGAdministrativeRoom.m in Sources */,
 				96B530161AF64EC60091ED81 /* TGWasher.m in Sources */,
 				96B52FFA1AF63A180091ED81 /* TGBuilding.m in Sources */,
 				96B5300D1AF64E6B0091ED81 /* TGPerson.m in Sources */,
 				96B52FF11AF635F10091ED81 /* main.m in Sources */,
+				96B530201AF653AD0091ED81 /* TGCarwashingRoom.m in Sources */,
 				96B5301A1AF650680091ED81 /* TGCar.m in Sources */,
 				96B530131AF64EB80091ED81 /* TGDirector.m in Sources */,
 				96B530061AF640B30091ED81 /* TGRoom.m in Sources */,

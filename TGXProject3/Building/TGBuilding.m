@@ -31,12 +31,20 @@
 #pragma mark -
 #pragma mark Initialisations and Deallocations
 
+- (void)dealloc {
+    self.mutableRooms = nil;
+    
+    [super dealloc];
+}
+
 - (instancetype)initWithRoomsCount:(NSUInteger)count {
     if (self = [super init]) {
         NSMutableArray *mutableRooms = [NSMutableArray arrayWithCapacity:count];
         for (NSUInteger index = 0; index < count; index++) {
             [mutableRooms addObject:[self.roomClass object]];
         }
+        
+        self.mutableRooms = mutableRooms;
     }
     
     return self;
@@ -46,6 +54,20 @@
 #pragma mark Accessors
 
 - (Class)roomClass {
+    return nil;
+}
+
+#pragma mark -
+#pragma mark Public Methods
+
+- (TGRoom *)roomWithClass:(Class)roomClass {
+    NSMutableArray *rooms = self.mutableRooms;
+    for (TGRoom *room in rooms) {
+        if ([room isKindOfClass:roomClass]) {
+            return room;
+        }
+    }
+    
     return nil;
 }
 

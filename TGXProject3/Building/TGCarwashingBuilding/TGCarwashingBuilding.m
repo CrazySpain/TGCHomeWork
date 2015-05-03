@@ -8,13 +8,15 @@
 
 #import "TGCarwashingBuilding.h"
 
+#import "TGCarwashingRoom.h"
+
 @implementation TGCarwashingBuilding
 
 #pragma mark -
 #pragma mark Accessors 
 
 - (Class)roomClass {
-    return nil;
+    return [TGCarwashingRoom class];
 }
 
 @end

@@ -8,13 +8,15 @@
 
 #import "TGAdministrativeBuiding.h"
 
+#import "TGAdministrativeRoom.h"
+
 @implementation TGAdministrativeBuiding
 
 #pragma mark -
 #pragma mark Accessors
 
 - (Class)roomClass {
-    return nil;
+    return [TGAdministrativeRoom class];
 }
 
 @end
